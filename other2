@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JW Player 5.7 with Skin</title>
+  <script src="jwplayer.js"></script>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+ 
+</head>
+<body>
+  <div id="myPlayer">Loading the player...</div>
+
+  <script>
+    jwplayer("myPlayer").setup({
+      file: "video.mp4",      // Replace with your video
+      image: "preview.jpg",      // Optional
+      width: 640,
+      height: 480,
+      skin: "newtubedark.xml"           // The SWF skin you extracted
+    });
+  </script>
+</body>
+</html
